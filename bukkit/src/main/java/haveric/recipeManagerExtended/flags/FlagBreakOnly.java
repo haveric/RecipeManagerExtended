@@ -39,7 +39,7 @@ public class FlagBreakOnly extends Flag {
             "The <material> argument accepts a comma separated list of materials.",
             "",
             "Using a '!' before the materials will reverse the functionality.",
-            "  This means all materials can be broken allowed except for those defined", };
+            "  This means all materials can be broken except for those defined", };
     }
 
     @Override
