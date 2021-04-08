@@ -1,0 +1,29 @@
+repositories {
+    mavenCentral()
+    maven {
+        name 'Spigot/Bukkit maven repo'
+        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+    maven {
+        name 'Jitpack' // For RecipeManager
+        url 'https://jitpack.io'
+    }
+    maven {
+        name 'ProtocolLib'
+        url 'https://repo.dmulloy2.net/nexus/repository/public/'
+    }
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+    implementation 'com.github.haveric.RecipeManager2:RecipeManager:v2.24.1'
+    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.5.0";
+}
+
+task copyJar(type: Copy) {
+    from jar
+    into '../build/libs/bukkit/'
+}
+
+build.dependsOn copyJar

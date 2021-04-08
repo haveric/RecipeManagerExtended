@@ -1,0 +1,7 @@
+name: RecipeManagerExtended
+description: Add extra functionality to RecipeManager
+version: 1.0.0
+api-version: 1.13
+author: haveric
+main: haveric.recipeManagerExtended.RecipeManagerExtended
+depend: [RecipeManager]
