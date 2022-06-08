@@ -7,7 +7,7 @@ import haveric.recipeManager.flag.args.Args;
 import haveric.recipeManager.tools.Tools;
 import haveric.recipeManagerExtended.RecipeManagerExtended;
 import haveric.recipeManagerExtended.StringArrayItemTagType;
-import org.apache.commons.lang.WordUtils;
+import org.apache.commons.text.WordUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;

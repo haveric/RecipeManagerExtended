@@ -16,7 +16,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT'
+    implementation 'org.apache.commons:commons-text:1.9'
+    implementation 'org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT'
     implementation 'com.github.haveric.RecipeManager2:RecipeManager:v2.27.1'
     compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.5.0"
 }
